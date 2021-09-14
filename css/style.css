@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
 }
 
 /* logo and title */
@@ -58,21 +58,67 @@ header {
 #content {
     padding: 25px 70px;
 }
-.info {
-    display: inline-block;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
- #blue {
-    background-color: rgb(99, 163, 214);
- }
- #purple {
-     background-color: rgb(156, 43, 156);
- }
+
 .tasks_list {
     margin-bottom: 20px;
 }
 
 .task {
-    margin: 10px;
+    margin: 15px;
 }
+
+.small_triangle {
+    font-size: 25px;
+}
+h1 {
+    display: inline-block;
+}
+
+.check {
+    color:rgb(13, 197, 151);
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 1px 4px;
+    border: 1px solid rgb(13, 197, 151) ;
+}
+
+.cross {
+    color:red;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 1px 4px;
+    border: 1px solid red;
+}
+
+
+.info {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
+ #blue {
+    background-color: rgb(99, 163, 214);
+ }
+
+ #purple {
+     background-color: rgb(171, 53, 240);
+ }
+
+ #green {
+     background-color: rgb(36, 211, 173);
+ }
+
+ #orange {
+     background-color: orange;
+ }
+
+ #pink {
+     background-color: rgb(212, 79, 141);
+ }
+
+ #lightgreen {
+     background-color: rgb(143, 248, 58);
+ }
+
