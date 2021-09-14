@@ -24,3 +24,33 @@ body {
     font-size: 20px;
 }
 
+/* button section*/
+#container {
+    width: 80%;
+    height: 500px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#button_section {
+    padding: 25px 70px;
+    border-bottom: 2px solid lightgray;
+}
+
+.add_button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#blue_button {
+    color: white;
+    background-color: rgb(99, 163, 214);
+    margin-right: 5px;
+}
+
+#white_button {
+    color: lightgray;
+    background-color: white;
+}
