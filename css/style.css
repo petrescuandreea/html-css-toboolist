@@ -21,16 +21,16 @@ header {
 }
 
 #logotext {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* button section*/
 #container {
     width: 80%;
-    margin: 30px auto;
+    margin: 20px auto;
     background-color: white;
     border-radius: 10px;
-    
 }
 
 #button_section {
@@ -56,22 +56,26 @@ header {
 
 /* content section */
 #content {
-    padding: 25px 70px;
+    padding: 40px 70px;
 }
 
 .tasks_list {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .task {
-    margin: 15px;
+    margin: 15px 0;
+    font-size: 20px;
 }
 
 .small_triangle {
     font-size: 25px;
+    /* margin-left: 15px; */
 }
 h1 {
     display: inline-block;
+    font-family: 'Azeret Mono', monospace;
+    color: rgb(44, 44, 44);
 }
 
 .check {
@@ -94,8 +98,9 @@ h1 {
 .info {
     display: inline-block;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 4px 10px;
     color: white;
+    font-size: 15px;
 }
 
  #blue {
