@@ -11,19 +11,21 @@ body {
 
 /* logo and title */
 header {
-    height: 80px;
+    height: 100px;
     background-color: white;
     padding: 10px 20px;
 }
 
 #logo {
+    line-height: 80px;
     vertical-align: middle;
 }
 
-#logotext {
-    font-size: 30px;
-    font-weight: bold;
-}
+h1 {
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+} 
 
 /* button section*/
 #container {
@@ -72,7 +74,7 @@ header {
     font-size: 25px;
     /* margin-left: 15px; */
 }
-h1 {
+h2 {
     display: inline-block;
     font-family: 'Azeret Mono', monospace;
     color: rgb(44, 44, 44);
